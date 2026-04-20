@@ -4,7 +4,7 @@ ENV BACKEND_URL=http://0.0.0.0:4000
 
 WORKDIR /app
 
-ADD frontend /app
+ADD . /app
 
 RUN npm install
 
